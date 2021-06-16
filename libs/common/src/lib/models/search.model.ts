@@ -36,6 +36,14 @@ export enum ResultsListLayout {
   LIST = 'LIST',
   TEXT = 'TEXT',
   TITLE = 'TITLE',
+  TABLE = 'TABLE',
+}
+
+export enum FieldsList {
+  'resourceTitleObject.default',
+  'resourceAltTitle.default',
+  'MD_LegalConstraintsOtherConstraintsObject',
+  'licenseObject.default'
 }
 
 export const RESULTS_PAGE_SIZE = 20

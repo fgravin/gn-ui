@@ -29,6 +29,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { ChipsInputComponent } from './chips-input/chips-input.component'
 import { DatepickerComponent } from './datepicker/datepicker.component'
 import { MyDatePickerModule } from 'mydatepicker'
+import {ResultsTableComponent} from "./results-table/results-table.component";
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { MyDatePickerModule } from 'mydatepicker'
     RecordPreviewTextComponent,
     RecordPreviewTitleComponent,
     RecordMetricComponent,
+    ResultsTableComponent,
     RecordThumbnailComponent,
     ResultsListComponent,
     CatalogTitleComponent,
@@ -76,6 +78,7 @@ import { MyDatePickerModule } from 'mydatepicker'
     RecordPreviewTextComponent,
     RecordPreviewTitleComponent,
     RecordMetricComponent,
+    ResultsTableComponent,
     RecordThumbnailComponent,
     ResultsListComponent,
     CatalogTitleComponent,
