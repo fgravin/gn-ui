@@ -18,5 +18,6 @@ module.exports = {
     '<rootDir>/libs/util/shared',
     '<rootDir>/libs/ui/map',
     '<rootDir>/libs/feature/map',
+    '<rootDir>/libs/feature/dataviz',
   ],
 }

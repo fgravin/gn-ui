@@ -21,6 +21,7 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { MainSearchComponent } from './main-search/main-search.component'
 import { NoopAnimationsModule } from '@angular/platform-browser/animations'
+import { FeatureDatavizModule } from '@geonetwork-ui/feature/dataviz'
 
 export const metaReducers: MetaReducer<any>[] = !environment.production
   ? [storeFreeze]
@@ -36,6 +37,7 @@ export const metaReducers: MetaReducer<any>[] = !environment.production
     TranslateModule.forRoot(TRANSLATE_GEONETWORK_CONFIG),
     FeatureSearchModule,
     FeatureCatalogModule,
+    FeatureDatavizModule,
     UiLayoutModule,
     UiMapModule,
     StoreModule.forRoot({}, { metaReducers }),

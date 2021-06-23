@@ -38,7 +38,8 @@
       ],
       "@geonetwork-ui/util/shared": ["libs/util/shared/src/index.ts"],
       "@geonetwork-ui/ui/map": ["libs/ui/map/src/index.ts"],
-      "@geonetwork-ui/feature/map": ["libs/feature/map/src/index.ts"]
+      "@geonetwork-ui/feature/map": ["libs/feature/map/src/index.ts"],
+      "@geonetwork-ui/feature/dataviz": ["libs/feature/dataviz/src/index.ts"]
     },
     "allowJs": true
   },
